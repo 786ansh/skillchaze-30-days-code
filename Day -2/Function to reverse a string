@@ -1,0 +1,10 @@
+def reverse_string(st):
+    stack=[]
+    for i in st:
+        stack.append(i) 
+    s=" "
+    while stack:
+        s+=stack.pop() 
+    return s.strip()
+st=input() 
+print(reverse_string(st)) 
