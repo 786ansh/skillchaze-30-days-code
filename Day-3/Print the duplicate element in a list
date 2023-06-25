@@ -1,0 +1,7 @@
+res=[]
+for i in range(len(ls)):
+    
+    k=ls.count(i)
+    if k>1:
+        res.append(i)
+print(res)
