@@ -1,0 +1,6 @@
+n=int(input())
+ls1=list(map(int,input().split()))
+ans=0
+for i in range(len(ls1)):
+    ans=ans^ls1[i]
+print(ans)
